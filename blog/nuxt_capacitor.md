@@ -54,7 +54,7 @@ $ yarn dev -o
 
 You will be navigated to the browser. Here you will see your web application.
 
-![a NuxtJS application in a browser](img/01_nuxt_web.png)
+![a NuxtJS application in a browser](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_nuxt_web.png)
 
 It's pretty empty, but it will be enough to show how to wrap a web application into mobile apps.
 
@@ -111,21 +111,21 @@ Let's add an emulator to run. Go to the "Tools" -> "Device Manager" and click "C
 
 First, you need to pick "Hardware device." The main difference between different devices is a screen size and availability of PlayMarket. I'll pick the `Pixel 2` because it has PlayMarket and a 5.0" screen size. 
 
-![Choosing the Android device for the emulator](img/01_android_emulator_1.png)
+![Choosing the Android device for the emulator](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_android_emulator_1.png)
 
 Then, you need to choose the Android OS image. I will use `Android API 33`.
 
-![Choosing Android API for the emulator](img/01_android_emulator_2.png)
+![Choosing Android API for the emulator](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_android_emulator_2.png)
 
 Finally, click 'Next' and 'Finish'. After this, you will see a new device on the 'Devices' dropdown. 
 
 Now, you can choose your device and click 'Run' to build and start the application:
 
-![Running an Android application](img/01_andorid_run.png)
+![Running an Android application](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_andorid_run.png)
 
 Android Studio will start the emulator, build, install and run your application:
 
-![A capacitor application runs on the Android emulator](img/01_nuxt_android.png)
+![A capacitor application runs on the Android emulator](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_nuxt_android.png)
 
 We are done with Android; let's move to the iOS part.
 
@@ -141,9 +141,9 @@ Now, we need to pick an emulator device to run the application. I'll use the iPo
 
 Then click 'Run'. XCode will build the app and run it on the device.
 
-![XCode, running a project](img/01_xcode_run.png)
+![XCode, running a project](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_xcode_run.png)
 
-![A capacitor application runs on the iOS emulator](img/01_nuxt_ios.png)
+![A capacitor application runs on the iOS emulator](https://raw.githubusercontent.com/eugen1j/nuxt-mobile/main/blog/img/01_nuxt_ios.png)
 
 We are done with the iOS part.
 
@@ -156,3 +156,8 @@ You can find the source code of the project [here](https://github.com/eugen1j/nu
 If you need to build a web or mobile app prototype, check out our [website](https://daiquiri.team/services/prototyping?utm_medium=referral&utm_source=dev_to&utm_campaign=nuxt_mobile_1) or connect with me directly on [LinkedIn](https://www.linkedin.com/in/yevhen-bondar/).
 
 
+# How to build SSR and mobile apps from the same code base?
+
+
+- remove app.vue
+- add index.vue
