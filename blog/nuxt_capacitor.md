@@ -2,7 +2,7 @@
 
 # How to create Android and iOS apps from the NuxtJS application using CapacitorJS
 
-In this guide, I will show how to wrap an existing [NuxtJS](https://v3.nuxtjs.org/) web application in Android and iOS mobile apps using [CapacitorJS](https://capacitorjs.com/)
+In this guide, I will show how to wrap an existing [NuxtJS](https://v3.nuxtjs.org/) web application into Android and iOS mobile apps using [CapacitorJS](https://capacitorjs.com/)
 
 > Capacitor is an open-source native runtime for building Web Native apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS.
 
@@ -10,7 +10,7 @@ CapacitorJS runs your static site on a local browser and shows it to the user. A
 
 But why do you need this if users can access your website from mobile browsers?
 
-1. It's more useful for users. If a user uses your web app every day, it's easier for him just to click on your app icon than go to the browser and search for your app bookmark or type your app domain name. Both Android and iOS have the feature "Add website to home screen". But a separate native app provides better UX.
+1. It's more useful for users. If a user uses your web app frequently, it's easier for them just to click on your app icon than go to the browser and search for your app bookmark or type your app domain name. Both Android and iOS have the feature "Add website to home screen". But a separate native app provides better UX.
 2. Distribution channel. Users can search for your app in AppStore and PlayMarket. So, it's better to be present on all popular platforms to reach more users.
 3. Native features. Maybe, your web app doesn't need them. But after you create a mobile version of your app, you can change your mind. At least you can add notifications by [FCM](https://firebase.google.com/docs/cloud-messaging).
 
@@ -97,7 +97,7 @@ $ yarn cap add android
 $ yarn cap add ios
 ```
 
-These commands create native applications in `android` and `ios` folders. They use clone web content from the `dist` directory to `ios/App/App/public` and `android/app/src/main/assets/public` directories.
+These commands create native applications in `android` and `ios` folders. They clone web content from the `dist` directory to `ios/App/App/public` and `android/app/src/main/assets/public` directories.
 
 Every time you change your site, you need to run `yarn generate` to generate a new static site and `npx cap sync` to update the native apps.
 
