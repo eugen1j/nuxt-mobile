@@ -153,11 +153,5 @@ Congratulations! In this guide, we turn a new NuxtJS web application into iOS an
 
 You can find the source code of the project [here](https://github.com/eugen1j/nuxt-mobile).
 
-If you need to build a web or mobile app prototype, check out our [website](https://daiquiri.team/services/prototyping?utm_medium=referral&utm_source=dev_to&utm_campaign=nuxt_mobile_1) or connect with me directly on [LinkedIn](https://www.linkedin.com/in/yevhen-bondar/).
+If you need to build a web or mobile app prototype, check out our [website](https://daiquiri.team/services/prototyping?utm_medium=referral&utm_source=medium_blog&utm_campaign=nuxt_mobile_1) or connect with me directly on [LinkedIn](https://www.linkedin.com/in/yevhen-bondar/).
 
-
-# How to build SSR and mobile apps from the same code base?
-
-
-- remove app.vue
-- add index.vue
